@@ -7,7 +7,7 @@
 ## Recon and enumeration
 
 
-     # Basic scan
+     # Basic scan service/version scan
      nmap -sV 10.10.10.3
       -sV probes open ports to determine service/version info.   
 ![Scan](https://user-images.githubusercontent.com/58709386/82747935-c539cc80-9d52-11ea-8b85-a243ad446526.png)
