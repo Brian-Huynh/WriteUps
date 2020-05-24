@@ -68,10 +68,13 @@ I was only able to access the tmp & IPC$ shares, unfortunately there was nothing
 Found a vulnerability for this version of vsftpd with metasploit, unfortunately the backdoor was removed already but I tried the exploit anyways.
  ![vsftpd](https://user-images.githubusercontent.com/58709386/82747927-c2d77280-9d52-11ea-8d4e-3061ef612f96.png)    
  ![PatchedVuln](https://user-images.githubusercontent.com/58709386/82747946-c79c2680-9d52-11ea-830a-f1be95de094a.png)
+
+Unfortunately this exploit didn't produce a shell.
+
  
  
  **Samba 3.0.20**
-Found a metasploit module which exploits this version of samba.
+Since the vsftpd didn't give me a shell or meterpreter session I found a metasploit module which exploits this version of samba.
  ![Samba](https://user-images.githubusercontent.com/58709386/82747944-c7039000-9d52-11ea-8581-75a5a1ccf56e.png)
  ![MSF Samba](https://user-images.githubusercontent.com/58709386/82747943-c7039000-9d52-11ea-9e25-ae4d839d2875.png)
  ![Shell](https://user-images.githubusercontent.com/58709386/82747942-c66af980-9d52-11ea-864c-91fd7e49962e.png)
