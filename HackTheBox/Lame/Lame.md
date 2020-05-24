@@ -84,7 +84,7 @@ Woooo!!! Got a shell with this exploit! With this shell I was able to get root a
 ![shadow](https://user-images.githubusercontent.com/58709386/82747937-c5d26300-9d52-11ea-8130-0ec7468d01a2.png)
 ![passwd](https://user-images.githubusercontent.com/58709386/82747936-c539cc80-9d52-11ea-9b47-cab1c61c3613.png)
 
-Once you get root access to a machine, hashes are stored in two seperate files which you have to combine to start cracking the hashes.
+Once you get root access to a machine, the hashes are stored in two seperate files which you have to combine to start cracking the hashes.
  - shadow
  - passwd
 
