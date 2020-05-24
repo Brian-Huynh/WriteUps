@@ -2,20 +2,21 @@
 ![Title](https://user-images.githubusercontent.com/58709386/82748772-6a57a380-9d59-11ea-8b91-5c7f8747c5ff.png)
 
 
+# Basic scan
+     nmap -sV 10.10.10.3
+      -sV probes open ports to determine service/version info.
+
 ## Recon and enumeration
 ![Scan](https://user-images.githubusercontent.com/58709386/82747935-c539cc80-9d52-11ea-8b85-a243ad446526.png)
 
-     # Basic scan
-     nmap -sV 10.10.10.3
-      -sV probes open ports to determine service/version info.
-      
-
-![Scan2](https://user-images.githubusercontent.com/58709386/82747934-c4a13600-9d52-11ea-9acc-983c47ee2df7.png)
-
-     # Detailed Scan
+# Detailed Scan
      nmap -A -p 21,22,139,445 10.10.10.3
       -A Enable OS detection, version detection, script scanning, and traceroute
       -p Scanned the ports found above
+      
+![Scan2](https://user-images.githubusercontent.com/58709386/82747934-c4a13600-9d52-11ea-9acc-983c47ee2df7.png)
+
+ 
 
 Scan results:
 
