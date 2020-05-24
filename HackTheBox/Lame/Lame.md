@@ -37,11 +37,14 @@ The results showed the version of SMB the machine is running.
  
  First I tried to login the FTP server to see if I can find useful information. 
 
- I tried entering login credentials anonymous / anonymous and it worked. 
-  ![FTP Server](https://user-images.githubusercontent.com/58709386/82747929-c3700900-9d52-11ea-96e1-0e8aeb835b01.png)
+ 
+ 
+ ![FTP Server](https://user-images.githubusercontent.com/58709386/82747929-c3700900-9d52-11ea-96e1-0e8aeb835b01.png)
+
+
 
  I tried searching for useful information in the FTP server, but it was empty.
-  ![FTP Navigation](https://user-images.githubusercontent.com/58709386/82747928-c3700900-9d52-11ea-8e1b-d4d6bd5cf7e1.png)
+ ![FTP Navigation](https://user-images.githubusercontent.com/58709386/82747928-c3700900-9d52-11ea-8e1b-d4d6bd5cf7e1.png)
  
  
  **Using smbclient**
