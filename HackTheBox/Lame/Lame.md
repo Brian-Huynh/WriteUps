@@ -57,6 +57,7 @@ Next I tried going through the workgroup shares, when it asked for a password I 
 
 ![SMB Navigation](https://user-images.githubusercontent.com/58709386/82747931-c4089f80-9d52-11ea-9b9b-d09c06f1103f.png)
 ![SMB Navigation](https://user-images.githubusercontent.com/58709386/82747930-c3700900-9d52-11ea-8d55-e69b59531ebb.png)
+
 I was only able to access the tmp & IPC$ shares, unfortunately there was nothing useful.
  
  
