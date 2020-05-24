@@ -33,7 +33,7 @@ Used Enum4linux to see if I could get any useful information
 The results showed the version of SMB the machine is running.      
       
 ## Exploitation   
- **Logging in FTP server**
+**Logging in FTP server**
  
  First I tried to login the FTP server to see if I can find useful information. 
 
@@ -47,12 +47,16 @@ The results showed the version of SMB the machine is running.
  ![FTP Navigation](https://user-images.githubusercontent.com/58709386/82747928-c3700900-9d52-11ea-8e1b-d4d6bd5cf7e1.png)
  
  
- **Using smbclient**
+ 
+**Using smbclient**
+
 Next I tried going through the workgroup shares, when it asked for a password I pressed Enter and somehow that worked. 
  ![SMB](https://user-images.githubusercontent.com/58709386/82747932-c4a13600-9d52-11ea-8871-1495dd31eabf.png)
-Went through all the shares to see if there was anything useful
- ![SMB Navigation](https://user-images.githubusercontent.com/58709386/82747931-c4089f80-9d52-11ea-9b9b-d09c06f1103f.png)
- ![SMB Navigation](https://user-images.githubusercontent.com/58709386/82747930-c3700900-9d52-11ea-8d55-e69b59531ebb.png)
+ 
+
+
+![SMB Navigation](https://user-images.githubusercontent.com/58709386/82747931-c4089f80-9d52-11ea-9b9b-d09c06f1103f.png)
+![SMB Navigation](https://user-images.githubusercontent.com/58709386/82747930-c3700900-9d52-11ea-8d55-e69b59531ebb.png)
 I was only able to access the tmp & IPC$ shares, unfortunately there was nothing useful.
  
  
