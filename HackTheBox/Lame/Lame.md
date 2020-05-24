@@ -2,11 +2,13 @@
 ![Title](https://user-images.githubusercontent.com/58709386/82748772-6a57a380-9d59-11ea-8b91-5c7f8747c5ff.png)
 
 
+
+
+## Recon and enumeration
+
 # Basic scan
      nmap -sV 10.10.10.3
       -sV probes open ports to determine service/version info.
-
-## Recon and enumeration
 ![Scan](https://user-images.githubusercontent.com/58709386/82747935-c539cc80-9d52-11ea-8b85-a243ad446526.png)
 
 # Detailed Scan
