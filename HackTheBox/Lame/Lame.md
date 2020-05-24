@@ -90,6 +90,7 @@ Once you get root access to a machine, the hashes are stored in two seperate fil
 
 
 **Locating the flags**
+
 Tried locating root.txt first but it didn't work so I tried the command updatedb - which the command locate uses
 [Locate1](https://user-images.githubusercontent.com/58709386/82747941-c66af980-9d52-11ea-9f8e-ddbf7a6cf3c2.png)
 [Rootflag](https://user-images.githubusercontent.com/58709386/82747940-c66af980-9d52-11ea-89a2-d361491f7939.png)
