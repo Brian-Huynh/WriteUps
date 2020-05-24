@@ -6,16 +6,17 @@
 
 ## Recon and enumeration
 
-# Basic scan
+
+     # Basic scan
      nmap -sV 10.10.10.3
-      -sV probes open ports to determine service/version info.
+      -sV probes open ports to determine service/version info.   
 ![Scan](https://user-images.githubusercontent.com/58709386/82747935-c539cc80-9d52-11ea-8b85-a243ad446526.png)
 
-# Detailed Scan
+
+     # Detailed Scan
      nmap -A -p 21,22,139,445 10.10.10.3
       -A Enable OS detection, version detection, script scanning, and traceroute
-      -p Scanned the ports found above
-      
+      -p Scanned the ports found above    
 ![Scan2](https://user-images.githubusercontent.com/58709386/82747934-c4a13600-9d52-11ea-9acc-983c47ee2df7.png)
 
  
@@ -33,14 +34,14 @@ The results showed the version of SMB the machine is running.
       
 ## Exploitation   
  **Logging in FTP server**
+ 
  First I tried to login the FTP server to see if I can find useful information. 
 
- 
- ![FTP Server](https://user-images.githubusercontent.com/58709386/82747929-c3700900-9d52-11ea-96e1-0e8aeb835b01.png)
-I tried entering login credentials anonymous / anonymous and it worked. 
- 
- ![FTP Navigation](https://user-images.githubusercontent.com/58709386/82747928-c3700900-9d52-11ea-8e1b-d4d6bd5cf7e1.png)
-I tried searching for useful information in the FTP server, but it was empty.
+ I tried entering login credentials anonymous / anonymous and it worked. 
+  ![FTP Server](https://user-images.githubusercontent.com/58709386/82747929-c3700900-9d52-11ea-96e1-0e8aeb835b01.png)
+
+ I tried searching for useful information in the FTP server, but it was empty.
+  ![FTP Navigation](https://user-images.githubusercontent.com/58709386/82747928-c3700900-9d52-11ea-8e1b-d4d6bd5cf7e1.png)
  
  
  **Using smbclient**
